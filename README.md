@@ -19,7 +19,7 @@ Przechowuje dane o serwerach i ich statystykach.
 #### Pola statyczne:
 - `serverNames` – tablica przechowująca nazwy serwerów.
 - `serverStats` – tablica dwuwymiarowa przechowująca statystyki CPU, RAM i Dysku dla każdego serwera.
-- 
+  
 #### Metody:
 - `getServerName(int id) -> String` – Zwraca nazwę serwera.
 - `getServerStats(int id) -> double[]` – Zwraca statystyki CPU, RAM, Dysk.
