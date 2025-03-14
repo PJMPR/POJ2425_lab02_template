@@ -28,6 +28,15 @@ public class Server {
     }
 
     /**
+     * Zwraca statystyki serwera na podstawie jego ID.
+     * @param server nazwa serwera w tablicy.
+     * @return Tablica z wartościami CPU, RAM i Dysk, lub pusta tablica jeśli ID jest niepoprawne.
+     */
+    public static double[] getServerStats(String server) {
+        return null;
+    }
+
+    /**
      * Wyszukuje indeks serwera na podstawie jego nazwy.
      * @param name Nazwa serwera.
      * @return Indeks serwera lub -1, jeśli serwer nie został znaleziony.
