@@ -41,7 +41,7 @@ Wykrywa przeciążenia serwerów.
 
 #### Metody:
 - `isServerOverloaded(int serverId) -> boolean` – Sprawdza, czy którykolwiek z zasobów przekracza 90%, po indeksie serwera.
-- `isServerOverloaded(String serverId) -> boolean` – Sprawdza, czy którykolwiek z zasobów przekracza 90%, po nazwie serwera.
+- `isServerOverloaded(String server) -> boolean` – Sprawdza, czy którykolwiek z zasobów przekracza 90%, po nazwie serwera.
 
 ### `ReportGenerator`
 Generuje raporty wydajnościowe.
